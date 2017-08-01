@@ -10,6 +10,9 @@ db = config.db,
 charset = 'utf8',
 cursorclass = pymysql.cursors.DictCursor)
 
+
+
+
 '''
 try:
     with connection.cursor() as cursor:
@@ -21,7 +24,6 @@ try:
 finally:
     connection.close()
 '''
-
 '''
 try: # different grammar from selection
     with connection.cursor() as cursor:
@@ -33,13 +35,17 @@ try: # different grammar from selection
 
 finally:
     connection.close()
-'''
 
+'''
 try:
     with connection.cursor() as cursor:
-        sql = "insert into performances values('3','Les Miserables',\
-        'Musical', 70000, Null)"
+        sql = "select * from performances;"
         cursor.execute(sql)
+        result = cursor.fetchall()
+        print(result)
+
+        sql = "insert into performances(name, type, price, booked) values(Phantom of Opera',\
+        'Opera', 100000, Null)"
         cursor.execute(sql)
         connection.commit()
 
