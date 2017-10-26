@@ -1,0 +1,4 @@
+{ "_id" : "empire", "tags" : { "taste" : "sweet-tart", "color" : "green" } }
+{ "_id" : "honeycrisp", "tags" : { "color" : "green", "taste" : "sweet-tart" } }
+{ "_id" : "red delicious", "tags" : { "color" : "red", "taste" : "mildly tart" } }
+

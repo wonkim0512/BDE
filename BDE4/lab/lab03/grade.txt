@@ -1,0 +1,8 @@
+7
+Lee 85 75
+Choi 71 81
+Kim 94 85
+Jung 67 81
+David 89 74
+Kate 92 61
+Youn 51 71

@@ -1,0 +1,6 @@
+apple
+bus
+city
+data
+english
+face

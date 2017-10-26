@@ -1,0 +1,8 @@
+TF-IDF for query1: 9.70030957252e-05
+TF-IDF for query2: 2.65657201061e-05
+TF-IDF for query3: 1.1621488274e-05
+
+여러 학생들과 숫자가 다른 이유는 단어에 대한 접근차이 때문입니다.
+즉, 'also'라는 단어를 찾을 때 'SELECT id FROM bde10.wiki WHERE text like "%also%"'
+로 접근했기 때문입니다. 'also'라는 단어만으로 접근했을 때와 TF-IDF의 차이가 크지 않고, 
+also를 포함한 단어를 사용할 여지도 있기 때문에 이렇게 접근하여 숫자를 크게 잡아놓는 것도 괜찮다고 생각했습니다.
