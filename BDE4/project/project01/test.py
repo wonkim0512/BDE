@@ -1,6 +1,5 @@
-phone = input("phone number: ")
-#if '-' in phone:
-#    phone = "".join(phone.split('-'))
-print(phone)
+import datetime
 
-print("".join(list(map(lambda x: x != '-', phone))))
+dt = datetime.datetime.now()
+time = "/".join([dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second])
+print(post, time)

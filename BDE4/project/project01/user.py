@@ -1,6 +1,5 @@
 # user.py
-import re
-from prettytable import PrettyTable
+from post import *
 
 def signup(db):
 
@@ -33,14 +32,6 @@ def signup(db):
         print("The ID already exists. Please try another ID!\n")
 
 
-    '''
-    1. Get his/her information.
-    2. Check if his/her password equals confirm password.
-    3. Check if the userid already exists.
-    4. Make the user document.
-    5. Insert the document into users collection.
-    '''
-
 
 def signin(db):
 
@@ -59,44 +50,37 @@ def signin(db):
 
             print("Login success!\n")
             document = db.users.find_one({"id":id, "pw":pw})
-            userpage(db, id)
+            userpage(db, id, document)
 
 
-    '''
-    1. Get his/her information.
-    2. Find him/her in users collection.
-    3. If exists, print welcome message and call userpage()
-    '''
+def userpage(db, id, document):
+    x = PrettyTable()
+    x.field_names = ["no", "function"]
+    x.add_row(["1", "Change my status message"])
+    x.add_row(["2", "Check my following and follower list"])
+    x.add_row(["3", "My posting"])
+    x.add_row(["4", "Another"])
+
+    switcher = {2: followList,
+                3: posting} # more to do.
+
+    while True:
+        print("\nWelcome to", id + "'s userpage!")
+        print(x)
+
+        task_no = input("What do you want to do here? Please enter the task's number: ")
+        selected_task = switcher.get(int(task_no), print_wrong)
+        selected_task(db, id, document)
 
 
-def followList(db, user, document):
+def followList(db, id, document):
+
     followings = document["following"]
     followers = document["followers"]
-    print(user + " has", len(followings), "followings,", len(followers), "followers")
+    print(id + " has", len(followings), "followings,", len(followers), "followers")
 
-    want_to_see_list = eval("Do you want to see people's list?(y/n):")
+    want_to_see_list = input("\nDo you want to see people's list?(y/n):")
     if want_to_see_list in ["Y","y","yes","Yes","YES"]:
         print("followings:", followings,"\nfollowers:", followers)
 
 
-def userpage(db, user):
-    x = PrettyTable()
-    x.field_names = ["no", "function"]
-    x.add_row(["1", "Change my status messege"])
-    x.add_row(["2", "Check my following and follower list"])
-    x.add_row(["3", "Another"])
-    x.add_row(["4", "Another"])
-
-    switcher = {2: followList} # more to do.
-
-    print("Welcome to", user + "'s userpage!")
-    print(x)
-
-    task_no = input("What do you want to do here? Please enter the task's number: ")
-    selected_task = switcher.get(int(task_no), print_wrong)
-    selected_task() # parameter 넘겨줘야하는 경우에는 어떡하지???
-
-
-
-def print_wrong():
-    print("\nwrong menu number.")
