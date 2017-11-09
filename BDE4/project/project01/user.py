@@ -6,13 +6,15 @@ def signup(db):
     while True:
 
         id = input("id: ") # id
-
         if not db.users.find_one({"id": id}): # if this id is not in users collection,
-            pw = input("pw: ") # password
 
-            if not re.match('^(?=.*?\d)(?=.*?[a-zA-Z])(?=.*?[!@#$%^&*()_+=-`~])[!@#$%^&*()_+=-`~A-Za-z\d]{8,}$', pw): # password restriction
-                print("Minimum 8 characters with at least one letter, one number and one special character.")
-                continue
+            while True:
+
+                pw = input("pw: ") # password
+                if not re.match('^(?=.*?\d)(?=.*?[a-zA-Z])(?=.*?[!@#$%^&*()_+=-`~])[!@#$%^&*()_+=-`~A-Za-z\d]{8,}$', pw): # password restriction
+                    print("Minimum 8 characters with at least one letter, one number and one special character.")
+                    continue
+                break
 
             name = input("name: ") # name
             birthday = input("birthday(YYMMDD)") # birthday
@@ -30,7 +32,6 @@ def signup(db):
             return False
 
         print("The ID already exists. Please try another ID!\n")
-
 
 
 def signin(db):
@@ -61,16 +62,39 @@ def userpage(db, id, document):
     x.add_row(["3", "My posting"])
     x.add_row(["4", "Another"])
 
-    switcher = {2: followList,
+    switcher = {1: changeStatus,
+                2: followList,
                 3: posting} # more to do.
 
     while True:
         print("\nWelcome to", id + "'s userpage!")
         print(x)
 
-        task_no = input("What do you want to do here? Please enter the task's number: ")
+        task_no = input("What do you want to do here? Please enter the task's number: \n")
         selected_task = switcher.get(int(task_no), print_wrong)
         selected_task(db, id, document)
+
+
+def changeStatus(db,id,document):
+
+    curr_status = db.status.find_one({'id':id})
+
+    if curr_status:
+        print("'{}' is your current status.".format(curr_status['status']))
+
+        confirm = input("Are you sure to change your status?(y/n):")
+        if confirm in ["Y", "y", "yes", "Yes", "YES"]:
+            new_status = input("Enter new status: ")
+            db.status.insert_one({'user_id': id, 'status': new_status})
+
+        elif confirm in ["N", "n", "no", "NO", "No"]:
+            pass
+
+        else:
+            print("Wrong input!")
+
+    else:
+        print("You have no status message now!")
 
 
 def followList(db, id, document):
