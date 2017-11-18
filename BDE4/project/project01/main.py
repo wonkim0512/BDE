@@ -10,7 +10,7 @@ db = client.project
 def mainpage(db):
 
     while True:
-        sign = int(input("Sign up or sign in?: \n"
+        sign = int(input("\nSign up or sign in?: \n"
                      "(Please enter 1 for sign up or 2 for sign in. 0 to quit)"))
 
         if sign == 1:
