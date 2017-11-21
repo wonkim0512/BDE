@@ -1,0 +1,4 @@
+{ "title": "MongoDB", "content": "MongoDB is a NoSQL DBMS", "writer": "Kim", "Language": ["Korean", "Japenese", "Chinese"], "likes": 51, "comments": [] }
+{ "title": "NoSQL", "content": "What is NoSQL?", "writer": "Lee", "likes": 20, "Language": ["Korean", "English", "Chinese"], "comments":  { "name": "Kim", "message": "It is great" } }
+{ "title": "Query", "content": "MongoDB Query?", "writer": {"first":"Ki", "last": "Jang"}, "likes": 10, "Language": ["Korean", "English", "Japanese"], "comments": [ { "name": "Lee", "message": "Find find!!" }, { "name": "Kim", "message": "MongoDB query is difficult" } ] } 
+{ "title": "Big data", "content": "Big data comes", "writer": "Han", "likes": 35, "comments": [ { "name": "Lee", "message": "Hello, big data" }, { "name": "Kim", "message": "Big means real huge?" }, { "name": "Jang", "message": "MongoDB can solve some problems" }, { "name": "Han", "message": "Thank you for visiting my blog" } ] } 

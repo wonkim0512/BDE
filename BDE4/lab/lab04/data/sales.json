@@ -1,0 +1,6 @@
+ { "_id": 1, "item": { "category": "Home", "type": "Television" }, "amount": 10 }
+ { "_id": 2, "item": { "category": "Camera", "type": "Polaroid" }, "amount": 50 }
+ { "_id": 3, "item": { "category": "Camera", "type": "Mirrorless" }, "amount": 15 }
+ { "_id": 4, "item": { "category": "Home", "type": "Audio" }, "amount": 30 }
+ { "_id": 5, "item": { "category": "Home", "type": "Speaker" }, "amount": 20 }
+ { "_id": 6, "item": { "category": "Car", "type": "Navigation" }, "amount": 10 }

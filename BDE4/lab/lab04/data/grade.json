@@ -1,0 +1,299 @@
+{"sid": 0, "type": "homework", "score": 69}
+{"sid": 0, "type": "quiz" , "score": 29}
+{"sid": 0, "type": "exam", "score": 86}
+{"sid": 1, "type": "homework", "score": 2}
+{"sid": 1, "type": "quiz" , "score": 6}
+{"sid": 1, "type": "exam", "score": 67}
+{"sid": 2, "type": "homework", "score": 13}
+{"sid": 2, "type": "quiz" , "score": 91}
+{"sid": 2, "type": "exam", "score": 76}
+{"sid": 3, "type": "homework", "score": 72}
+{"sid": 3, "type": "quiz" , "score": 55}
+{"sid": 3, "type": "exam", "score": 93}
+{"sid": 4, "type": "homework", "score": 17}
+{"sid": 4, "type": "quiz" , "score": 90}
+{"sid": 4, "type": "exam", "score": 98}
+{"sid": 5, "type": "homework", "score": 83}
+{"sid": 5, "type": "quiz" , "score": 68}
+{"sid": 5, "type": "exam", "score": 98}
+{"sid": 6, "type": "homework", "score": 30}
+{"sid": 6, "type": "quiz" , "score": 88}
+{"sid": 6, "type": "exam", "score": 90}
+{"sid": 7, "type": "homework", "score": 55}
+{"sid": 7, "type": "quiz" , "score": 6}
+{"sid": 7, "type": "exam", "score": 75}
+{"sid": 8, "type": "homework", "score": 33}
+{"sid": 8, "type": "quiz" , "score": 99}
+{"sid": 8, "type": "exam", "score": 99}
+{"sid": 9, "type": "homework", "score": 33}
+{"sid": 9, "type": "quiz" , "score": 79}
+{"sid": 9, "type": "exam", "score": 46}
+{"sid": 10, "type": "homework", "score": 39}
+{"sid": 10, "type": "quiz" , "score": 46}
+{"sid": 10, "type": "exam", "score": 81}
+{"sid": 11, "type": "homework", "score": 11}
+{"sid": 11, "type": "quiz" , "score": 5}
+{"sid": 11, "type": "exam", "score": 92}
+{"sid": 12, "type": "homework", "score": 47}
+{"sid": 12, "type": "quiz" , "score": 79}
+{"sid": 12, "type": "exam", "score": 51}
+{"sid": 13, "type": "homework", "score": 31}
+{"sid": 13, "type": "quiz" , "score": 66}
+{"sid": 13, "type": "exam", "score": 70}
+{"sid": 14, "type": "homework", "score": 53}
+{"sid": 14, "type": "quiz" , "score": 9}
+{"sid": 14, "type": "exam", "score": 84}
+{"sid": 15, "type": "homework", "score": 78}
+{"sid": 15, "type": "quiz" , "score": 31}
+{"sid": 15, "type": "exam", "score": 75}
+{"sid": 16, "type": "homework", "score": 81}
+{"sid": 16, "type": "exam", "score": 97}
+{"sid": 17, "type": "homework", "score": 54}
+{"sid": 17, "type": "quiz" , "score": 48}
+{"sid": 17, "type": "exam", "score": 92}
+{"sid": 18, "type": "homework", "score": 61}
+{"sid": 18, "type": "quiz" , "score": 80}
+{"sid": 18, "type": "exam", "score": 66}
+{"sid": 19, "type": "homework", "score": 81}
+{"sid": 19, "type": "quiz" , "score": 44}
+{"sid": 19, "type": "exam", "score": 66}
+{"sid": 20, "type": "homework", "score": 75}
+{"sid": 20, "type": "quiz" , "score": 100}
+{"sid": 20, "type": "exam", "score": 70}
+{"sid": 21, "type": "homework", "score": 77}
+{"sid": 21, "type": "quiz" , "score": 55}
+{"sid": 21, "type": "exam", "score": 80}
+{"sid": 22, "type": "homework", "score": 77}
+{"sid": 22, "type": "quiz" , "score": 68}
+{"sid": 22, "type": "exam", "score": 89}
+{"sid": 23, "type": "homework", "score": 72}
+{"sid": 23, "type": "quiz" , "score": 63}
+{"sid": 23, "type": "exam", "score": 98}
+{"sid": 24, "type": "homework", "score": 43}
+{"sid": 24, "type": "quiz" , "score": 54}
+{"sid": 24, "type": "exam", "score": 64}
+{"sid": 25, "type": "homework", "score": 15}
+{"sid": 25, "type": "quiz" , "score": 33}
+{"sid": 25, "type": "exam", "score": 74}
+{"sid": 26, "type": "homework", "score": 17}
+{"sid": 26, "type": "quiz" , "score": 56}
+{"sid": 26, "type": "exam", "score": 91}
+{"sid": 27, "type": "homework", "score": 70}
+{"sid": 27, "type": "quiz" , "score": 41}
+{"sid": 27, "type": "exam", "score": 79}
+{"sid": 28, "type": "homework", "score": 40}
+{"sid": 28, "type": "quiz" , "score": 98}
+{"sid": 28, "type": "exam", "score": 84}
+{"sid": 29, "type": "homework", "score": 50}
+{"sid": 29, "type": "quiz" , "score": 79}
+{"sid": 29, "type": "exam", "score": 73}
+{"sid": 30, "type": "homework", "score": 70}
+{"sid": 30, "type": "quiz" , "score": 49}
+{"sid": 30, "type": "exam", "score": 53}
+{"sid": 31, "type": "homework", "score": 95}
+{"sid": 31, "type": "quiz" , "score": 41}
+{"sid": 31, "type": "exam", "score": 66}
+{"sid": 32, "type": "homework", "score": 5}
+{"sid": 32, "type": "quiz" , "score": 73}
+{"sid": 32, "type": "exam", "score": 51}
+{"sid": 33, "type": "homework", "score": 0}
+{"sid": 33, "type": "quiz" , "score": 82}
+{"sid": 33, "type": "exam", "score": 100}
+{"sid": 34, "type": "homework", "score": 28}
+{"sid": 34, "type": "quiz" , "score": 54}
+{"sid": 34, "type": "exam", "score": 78}
+{"sid": 35, "type": "homework", "score": 59}
+{"sid": 35, "type": "quiz" , "score": 27}
+{"sid": 35, "type": "exam", "score": 67}
+{"sid": 36, "type": "homework", "score": 65}
+{"sid": 36, "type": "quiz" , "score": 60}
+{"sid": 36, "type": "exam", "score": 64}
+{"sid": 37, "type": "homework", "score": 38}
+{"sid": 37, "type": "quiz" , "score": 87}
+{"sid": 37, "type": "exam", "score": 80}
+{"sid": 38, "type": "homework", "score": 56}
+{"sid": 38, "type": "quiz" , "score": 47}
+{"sid": 38, "type": "exam", "score": 45}
+{"sid": 39, "type": "homework", "score": 3}
+{"sid": 39, "type": "quiz" , "score": 100}
+{"sid": 39, "type": "exam", "score": 75}
+{"sid": 40, "type": "homework", "score": 41}
+{"sid": 40, "type": "quiz" , "score": 78}
+{"sid": 40, "type": "exam", "score": 32}
+{"sid": 41, "type": "homework", "score": 27}
+{"sid": 41, "type": "quiz" , "score": 68}
+{"sid": 41, "type": "exam", "score": 86}
+{"sid": 42, "type": "homework", "score": 80}
+{"sid": 42, "type": "quiz" , "score": 67}
+{"sid": 42, "type": "exam", "score": 45}
+{"sid": 43, "type": "homework", "score": 57}
+{"sid": 43, "type": "quiz" , "score": 50}
+{"sid": 43, "type": "exam", "score": 73}
+{"sid": 44, "type": "homework", "score": 86}
+{"sid": 44, "type": "quiz" , "score": 78}
+{"sid": 44, "type": "exam", "score": 83}
+{"sid": 45, "type": "homework", "score": 43}
+{"sid": 45, "type": "quiz" , "score": 78}
+{"sid": 45, "type": "exam", "score": 67}
+{"sid": 46, "type": "homework", "score": 75}
+{"sid": 46, "type": "quiz" , "score": 72}
+{"sid": 46, "type": "exam", "score": 61}
+{"sid": 47, "type": "homework", "score": 46}
+{"sid": 47, "type": "quiz" , "score": 93}
+{"sid": 47, "type": "exam", "score": 76}
+{"sid": 48, "type": "homework", "score": 84}
+{"sid": 48, "type": "quiz" , "score": 82}
+{"sid": 48, "type": "exam", "score": 42}
+{"sid": 49, "type": "homework", "score": 58}
+{"sid": 49, "type": "quiz" , "score": 72}
+{"sid": 49, "type": "exam", "score": 91}
+{"sid": 50, "type": "homework", "score": 48}
+{"sid": 50, "type": "quiz" , "score": 50}
+{"sid": 50, "type": "exam", "score": 95}
+{"sid": 51, "type": "homework", "score": 16}
+{"sid": 51, "type": "quiz" , "score": 94}
+{"sid": 51, "type": "exam", "score": 34}
+{"sid": 52, "type": "homework", "score": 91}
+{"sid": 52, "type": "quiz" , "score": 49}
+{"sid": 52, "type": "exam", "score": 91}
+{"sid": 53, "type": "homework", "score": 63}
+{"sid": 53, "type": "quiz" , "score": 92}
+{"sid": 53, "type": "exam", "score": 60}
+{"sid": 54, "type": "homework", "score": 75}
+{"sid": 54, "type": "quiz" , "score": 96}
+{"sid": 54, "type": "exam", "score": 99}
+{"sid": 55, "type": "homework", "score": 76}
+{"sid": 55, "type": "quiz" , "score": 97}
+{"sid": 55, "type": "exam", "score": 60}
+{"sid": 56, "type": "homework", "score": 59}
+{"sid": 56, "type": "quiz" , "score": 98}
+{"sid": 56, "type": "exam", "score": 62}
+{"sid": 57, "type": "homework", "score": 60}
+{"sid": 57, "type": "quiz" , "score": 74}
+{"sid": 57, "type": "exam", "score": 97}
+{"sid": 58, "type": "homework", "score": 46}
+{"sid": 58, "type": "quiz" , "score": 76}
+{"sid": 58, "type": "exam", "score": 85}
+{"sid": 59, "type": "homework", "score": 45}
+{"sid": 59, "type": "quiz" , "score": 88}
+{"sid": 59, "type": "exam", "score": 73}
+{"sid": 60, "type": "homework", "score": 41}
+{"sid": 60, "type": "quiz" , "score": 33}
+{"sid": 60, "type": "exam", "score": 90}
+{"sid": 61, "type": "homework", "score": 56}
+{"sid": 61, "type": "quiz" , "score": 57}
+{"sid": 61, "type": "exam", "score": 92}
+{"sid": 62, "type": "homework", "score": 63}
+{"sid": 62, "type": "quiz" , "score": 92}
+{"sid": 62, "type": "exam", "score": 67}
+{"sid": 63, "type": "homework", "score": 92}
+{"sid": 63, "type": "quiz" , "score": 74}
+{"sid": 63, "type": "exam", "score": 85}
+{"sid": 64, "type": "homework", "score": 87}
+{"sid": 64, "type": "quiz" , "score": 9}
+{"sid": 64, "type": "exam", "score": 88}
+{"sid": 65, "type": "homework", "score": 80}
+{"sid": 65, "type": "quiz" , "score": 26}
+{"sid": 65, "type": "exam", "score": 90}
+{"sid": 66, "type": "homework", "score": 93}
+{"sid": 66, "type": "quiz" , "score": 35}
+{"sid": 66, "type": "exam", "score": 39}
+{"sid": 67, "type": "homework", "score": 96}
+{"sid": 67, "type": "quiz" , "score": 43}
+{"sid": 67, "type": "exam", "score": 44}
+{"sid": 68, "type": "homework", "score": 56}
+{"sid": 68, "type": "quiz" , "score": 60}
+{"sid": 68, "type": "exam", "score": 100}
+{"sid": 69, "type": "homework", "score": 7}
+{"sid": 69, "type": "quiz" , "score": 96}
+{"sid": 69, "type": "exam", "score": 35}
+{"sid": 70, "type": "homework", "score": 73}
+{"sid": 70, "type": "quiz" , "score": 99}
+{"sid": 70, "type": "exam", "score": 20}
+{"sid": 71, "type": "homework", "score": 93}
+{"sid": 71, "type": "quiz" , "score": 14}
+{"sid": 71, "type": "exam", "score": 95}
+{"sid": 72, "type": "homework", "score": 90}
+{"sid": 72, "type": "quiz" , "score": 73}
+{"sid": 72, "type": "exam", "score": 90}
+{"sid": 73, "type": "homework", "score": 24}
+{"sid": 73, "type": "quiz" , "score": 38}
+{"sid": 73, "type": "exam", "score": 91}
+{"sid": 74, "type": "homework", "score": 13}
+{"sid": 74, "type": "quiz" , "score": 75}
+{"sid": 74, "type": "exam", "score": 31}
+{"sid": 75, "type": "homework", "score": 31}
+{"sid": 75, "type": "quiz" , "score": 63}
+{"sid": 75, "type": "exam", "score": 10}
+{"sid": 76, "type": "homework", "score": 50}
+{"sid": 76, "type": "quiz" , "score": 74}
+{"sid": 76, "type": "exam", "score": 79}
+{"sid": 77, "type": "homework", "score": 83}
+{"sid": 77, "type": "quiz" , "score": 76}
+{"sid": 77, "type": "exam", "score": 16}
+{"sid": 78, "type": "homework", "score": 67}
+{"sid": 78, "type": "quiz" , "score": 52}
+{"sid": 78, "type": "exam", "score": 47}
+{"sid": 79, "type": "homework", "score": 38}
+{"sid": 79, "type": "quiz" , "score": 60}
+{"sid": 79, "type": "exam", "score": 90}
+{"sid": 80, "type": "homework", "score": 16}
+{"sid": 80, "type": "quiz" , "score": 51}
+{"sid": 80, "type": "exam", "score": 55}
+{"sid": 81, "type": "homework", "score": 81}
+{"sid": 81, "type": "quiz" , "score": 70}
+{"sid": 81, "type": "exam", "score": 47}
+{"sid": 82, "type": "homework", "score": 89}
+{"sid": 82, "type": "quiz" , "score": 22}
+{"sid": 82, "type": "exam", "score": 43}
+{"sid": 83, "type": "homework", "score": 35}
+{"sid": 83, "type": "quiz" , "score": 89}
+{"sid": 83, "type": "exam", "score": 77}
+{"sid": 84, "type": "homework", "score": 31}
+{"sid": 84, "type": "quiz" , "score": 86}
+{"sid": 84, "type": "exam", "score": 86}
+{"sid": 85, "type": "homework", "score": 20}
+{"sid": 85, "type": "quiz" , "score": 79}
+{"sid": 85, "type": "exam", "score": 87}
+{"sid": 86, "type": "homework", "score": 81}
+{"sid": 86, "type": "quiz" , "score": 25}
+{"sid": 86, "type": "exam", "score": 71}
+{"sid": 87, "type": "homework", "score": 46}
+{"sid": 87, "type": "quiz" , "score": 24}
+{"sid": 87, "type": "exam", "score": 74}
+{"sid": 88, "type": "homework", "score": 87}
+{"sid": 88, "type": "quiz" , "score": 44}
+{"sid": 88, "type": "exam", "score": 84}
+{"sid": 89, "type": "homework", "score": 49}
+{"sid": 89, "type": "quiz" , "score": 61}
+{"sid": 89, "type": "exam", "score": 90}
+{"sid": 90, "type": "homework", "score": 99}
+{"sid": 90, "type": "quiz" , "score": 89}
+{"sid": 90, "type": "exam", "score": 27}
+{"sid": 91, "type": "homework", "score": 23}
+{"sid": 91, "type": "quiz" , "score": 74}
+{"sid": 91, "type": "exam", "score": 92}
+{"sid": 92, "type": "homework", "score": 47}
+{"sid": 92, "type": "quiz" , "score": 75}
+{"sid": 92, "type": "exam", "score": 91}
+{"sid": 93, "type": "homework", "score": 84}
+{"sid": 93, "type": "quiz" , "score": 96}
+{"sid": 93, "type": "exam", "score": 82}
+{"sid": 94, "type": "homework", "score": 84}
+{"sid": 94, "type": "quiz" , "score": 58}
+{"sid": 94, "type": "exam", "score": 75}
+{"sid": 95, "type": "homework", "score": 70}
+{"sid": 95, "type": "quiz" , "score": 66}
+{"sid": 95, "type": "exam", "score": 95}
+{"sid": 96, "type": "homework", "score": 94}
+{"sid": 96, "type": "quiz" , "score": 49}
+{"sid": 96, "type": "exam", "score": 21}
+{"sid": 97, "type": "homework", "score": 41}
+{"sid": 97, "type": "quiz" , "score": 78}
+{"sid": 97, "type": "exam", "score": 80}
+{"sid": 98, "type": "homework", "score": 26}
+{"sid": 98, "type": "quiz" , "score": 41}
+{"sid": 98, "type": "exam", "score": 83}
+{"sid": 99, "type": "homework", "score": 85}
+{"sid": 99, "type": "quiz" , "score": 78}
+{"sid": 99, "type": "exam", "score": 92}
