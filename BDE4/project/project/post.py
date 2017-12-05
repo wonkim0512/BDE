@@ -12,12 +12,15 @@ def posting(db, id, document):
 
     print(x)
 
-    task = input("1: Insert post, 2: Delete post, 0: quit: ")
+    task = input("1: Insert post, 2: Delete post, 3: Tag search, 0: quit: ")
     if task == "1":
         insertPost(db, id)
 
     elif task == "2":
         deletePost(db, id)
+
+    elif task == "3":
+        tagSearch(db, id)
 
     elif task == "0":
         pass
@@ -30,9 +33,14 @@ def insertPost(db, id):
     import time
     post_num = db.posts.find({'id': id}).count() + 1
     post = input("Write post here: ")
+    tag = input("Any hash tags? If you don't have just press 'Enter'.: ")
+    tags = [x.strip("#") for x in tag.split()]
+
     post_time = time.localtime(time.time())
     db.posts.insert_one({"post_num": post_num, "id": id, 'post': post, 'year': post_time[0], 'month': post_time[1],\
-                        'day': post_time[2], 'hour': post_time[3], 'minute': post_time[4], 'second': post_time[5], 'reference':time.time()})
+                        'day': post_time[2], 'hour': post_time[3], 'minute': post_time[4], 'second': post_time[5],\
+                         'reference':time.time(), 'tags': tags})
+
 
 
 def deletePost(db, id):
@@ -51,6 +59,26 @@ def deletePost(db, id):
 
         else:
             print("Wrong input!")
+
+
+def tagSearch(db, id):
+    tag = input("Please enter a tag what you want to search!: ").strip("#")
+
+    x = PrettyTable()
+    x.field_names = ["#{}".format(tag), "ID", "Post", "Time"]
+
+    posts = db.posts.find({'tags':{"$elemMatch":{'$eq': tag}}})
+    if posts.count() == 0:
+        print("There is no post matching for '{}'!".format(tag))
+
+    else:
+        for post in posts:
+            x.add_row([post['post_num'], id, post['post'],
+                       str(post['year']) + "/" + str(post['month']) + '/' + str(post['day']) + " " \
+                       + str(post['hour']) + ":" + str(post['minute']) + ':' + str(
+                           post['second'])])  # post number 어떻게 가져올지 생각해보자.
+
+        print(x)
 
 
 def print_wrong():

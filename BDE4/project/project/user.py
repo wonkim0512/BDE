@@ -3,6 +3,7 @@ from post import *
 from follow import *
 from newsfeed import *
 
+
 def signup(db):
 
     while True:
@@ -42,7 +43,7 @@ def signup(db):
             if '-' in phone:
                 phone = "".join(phone.split('-')) # get rid of '-' from user's input
 
-            print(id, pw, name, birthday, phone,"\n")
+            print("You signed up with ", id, pw, name, birthday, phone,"\n")
             db.users.insert_one({"id": id, "pw": pw, "name": name, "birthday": birthday,\
                                  "phone":phone, "following":[], "followers":[]})
 
@@ -55,8 +56,11 @@ def signin(db):
 
     while True:
 
-        print("\nPlease Login!")
+        print("\nPlease Login! Please stroke 'enter' key to quit")
         id = input("Please input your ID: ")
+        if id == "":
+            return False
+
         if not db.users.find_one({"id":id}):
             print("There is no ID like this.\n")
             continue
@@ -64,6 +68,9 @@ def signin(db):
 
         else:
             pw = input("Please input your password:")
+            if pw == "":
+                return False
+
             if not db.users.find_one({"pw":pw}):
                 print("Wrong Password!\n")
                 continue
@@ -78,8 +85,8 @@ def signin(db):
 def userpage(db, id):
     x = PrettyTable()
     x.field_names = ["no", "function"]
-    x.add_row(["1", "Change my status message"])
-    x.add_row(["2", "Check my following and follower list"])
+    x.add_row(["1", "Status message"])
+    x.add_row(["2", "Following and follower list"])
     x.add_row(["3", "Follow & Unfollow"])
     x.add_row(["4", "My posting"])
     x.add_row(["5", "Newsfeed"])
@@ -98,11 +105,13 @@ def userpage(db, id):
         document = db.users.find_one({"id": id})
         task_no = input("What do you want to do here? Please enter the task's number: \n")
         selected_task = switcher.get(int(task_no), print_wrong)
+        if selected_task == exit:
+            exit()
         selected_task(db, id, document)
 
 
 def confirm(db, id, curr_status):
-    confirm = input("\nAre you sure to change your status?(y/n):")
+    confirm = input("\nDo you want to change your status?(y/n):")
 
     if confirm in ["Y", "y", "yes", "Yes", "YES"]:
         new_status = input("Enter new status: ")
@@ -123,7 +132,7 @@ def changeStatus(db, id, document):
     curr_status = db.status.find_one({'id':id})
 
     if curr_status:
-        print("\n'{}' is your current status.".format(curr_status['status']))
+        print("\n'{}'".format(curr_status['status']))
         confirm(db, id, curr_status)
 
     else:
